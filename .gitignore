@@ -1,0 +1,24 @@
+# Ignore uploads / user-generated files
+/uploads/
+
+# Ignore local environment configuration
+.env
+config.php
+
+# Ignore logs and temporary files
+*.log
+*.tmp
+
+# Ignore system files
+*.DS_Store
+Thumbs.db
+
+# Ignore vendor or dependency directories (if any)
+vendor/
+node_modules/
+
+# Ignore local database files
+*.sqlite
+
+# Ignore XAMPP temporary files
+/tmp/
